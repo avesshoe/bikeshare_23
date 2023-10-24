@@ -1,0 +1,26 @@
+---
+title: "Project"
+output: html_document
+date: "2023-10-23"
+---
+
+# Project
+### Avery, Evan, Cole, Matt
+
+## Loading Packages
+
+```{r}
+
+library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(here)
+
+```
+## Reading in Data
+
+```{r}
+BikeData <- here("202309-capitalbikeshare-tripdata.csv")
+
+```
+
